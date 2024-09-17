@@ -45,7 +45,7 @@
         <input type="text"> <br><br>
 
         Address: <br>
-        <textarea name="Address"></textarea> <br><br>
+        <textarea name="Address" placeholder="Enter your Address here"></textarea> <br><br>
 
         <input type="submit" name="submit" value="Get Admission!">
     </form>
@@ -53,13 +53,32 @@
     <hr><br>
 
     <form>
-        <label for="gender">Gender:</label><br>
-        <input type="password" id="male" name="gender" value="male">
-        <label for="male">Male</label><br>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label><br>
-        <input type="radio" id="other" name="gender" value="other">
-        <label for="other">Other</label><br><br>
+        USERNAME: <br>
+        <input type="text" name="username" placeholder="Enter your name here" required> <br><br>
+
+        PASSWORD: <br>
+        <input type="password" name="password" maxlength="4" placeholder="Enter your password here" required> <br><br>
+
+        SEARCH:  <br><br>
+        <input type="text" name="search" placeholder="Search something"> <br><br>
+
+        WEBSITE: <br>
+        <input type="url" name="website" placeholder="Enter your website URL here"> <br><br>
+
+        RADIO BUTTON: <br>
+        <input type="radio" name="gender" value="Male">Male <br>
+        <input type="radio" name="gender" value="Female">Female <br><br>
+
+        Files: <br>
+        <input type="file" accept=".pdf" placeholder="Select your documents" name="documents" value="documents"> <br><br>
+
+        
+
+        <input type="datetime-local"> <br><br>
+        <input type="color" name="color"> <br><br>
+
+        <input type="reset" value="Clear All">
+        <input type="submit" name="submit" value="Login">
     </form>
 
 
